@@ -3,6 +3,22 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>Checksum Key.pfx</AssemblyOriginatorKeyFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage>English</NeutralLanguage>
+    <AssemblyVersion>0.0.3.0</AssemblyVersion>
+    <FileVersion>0.0.3.0</FileVersion>
+    <Copyright>2018</Copyright>
+    <Company>Bryan Pritchett (Journeyman32)</Company>
+    <Authors>Bryan Pritchett (Journeyman32)</Authors>
+    <Version>0.0.3</Version>
+    <RepositoryUrl>https://github.com/journeyman32/Checksum.git</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChecksumEncoder\ChecksumEncoder.csproj" />
+  </ItemGroup>
 
 </Project>
